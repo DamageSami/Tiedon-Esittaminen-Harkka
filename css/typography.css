@@ -1,0 +1,22 @@
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 5em;
+}
+
+.text-black {
+  color: var(--black);
+}
+
+.text-red {
+  color: var(--red);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-end {
+  text-align: end;
+}

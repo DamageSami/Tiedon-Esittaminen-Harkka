@@ -15,8 +15,17 @@
     <link rel="apple-touch-icon" href="icon.png" />
     <!-- Place favicon.ico in the root directory -->
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/typography.css" />
+    <link rel="stylesheet" href="css/spacing.css" />
 
     <meta name="theme-color" content="#fafafa" />
   </head>
@@ -26,47 +35,77 @@
       <header>
         <div>
           <div class="logo">
-            <div class="bg-red text-center p-1">I know</div>
-            <div class="text-center p-1">HTML</div>
+            <div class="bg-red text-center px-3 py-4">I know</div>
+            <div class="text-center p-1 text-black px-3 py-4">HTML</div>
           </div>
-          <div>And a lil' css</div>
+          <div class="text-end text-black">And a lil' css</div>
         </div>
       </header>
 
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>Design thinking?</li>
-          <li>DT in nutshell</li>
-          <li>About us</li>
-          <li>Contact</li>
+      <nav class="bg-gray text-black p-0 m-0">
+        <ul class="m-0">
+          <a href="#"><li class="py-2 px-3">Home</li></a>
+          <a href="#"><li class="py-2 px-3">Design thinking?</li></a>
+          <a href="#"><li class="py-2 px-3">DT in nutshell</li></a>
+          <a href="#"><li class="py-2 px-3">About us</li></a>
+          <a href="#" class="active"><li class="py-2 px-3">Contact</li></a>
         </ul>
       </nav>
 
-      <section>
-        <h1>
-          <span>Design</span>
-          <span>thinking</span>
-        </h1>
-        <p>asdfasdfadsfas</p>
-        <ul>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-          <li>Integer nec odio. Praesent libero.</li>
-          <li>Sed cursus ante dapibus diam.</li>
-          <li>Sed nisi. Nulla quis sem at nibh elementum imperdiet.</li>
-          <li>Duis sagittis ipsum.</li>
-        </ul>
+      <section class="p-5 py-6" style="display: flex; justify-content: end">
+        <div class="w-50">
+          <h1 style="line-height: 30px">
+            <div class="text-end" style="display: inline-block">
+              <span style="font-size: 150%">Design</span><br />
+              <span class="text-red">thinking</span>
+            </div>
+          </h1>
+          <div class="p-3">
+            <p>asdfasdfadsfas</p>
+            <ul>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              <li>Integer nec odio. Praesent libero.</li>
+              <li>Sed cursus ante dapibus diam.</li>
+              <li>Sed nisi. Nulla quis sem at nibh elementum imperdiet.</li>
+              <li>Duis sagittis ipsum.</li>
+            </ul>
+          </div>
+        </div>
       </section>
 
-      <section>
-        <h1>Design thinking</h1>
+      <section class="p-5 py-6" style="display: flex; justify-content: center">
         <div>
-          <div>Box</div>
-          <div>Box</div>
-          <div>Box</div>
-          <div>Box</div>
+          <h2 class="text-center">Design thinking</h2>
+          <div style="display: flex; justify-content: center">
+            <div
+              class="mb-5"
+              style="
+                display: grid;
+                grid-template-columns: auto auto;
+                grid-template-rows: auto auto 100px;
+                grid-gap: 3em;
+                width: 500px;
+                height: 600px;
+              "
+            >
+              <div class="text-center p-3" style="background-color: #921111">
+                Box
+              </div>
+              <div class="text-center p-3" style="background-color: #1d6531">
+                Box
+              </div>
+              <div class="text-center p-3" style="background-color: #3c00ae">
+                Box
+              </div>
+              <div class="text-center p-3" style="background-color: #333333">
+                Box
+              </div>
+              <div class="bg-red p-3" style="grid-column-end: span 2">
+                Innovation
+              </div>
+            </div>
+          </div>
         </div>
-        <div>Innovation</div>
       </section>
 
       <section>Embedded youtube (iframe)</section>

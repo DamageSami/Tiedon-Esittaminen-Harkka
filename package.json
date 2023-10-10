@@ -2,7 +2,9 @@
   "name": "tiedonesittaminen",
   "version": "0.0.1",
   "description": "Tiedon Esittaminen",
-  "keywords": ["Tiedon Esittaminen"],
+  "keywords": [
+    "Tiedon Esittaminen"
+  ],
   "license": "",
   "author": "",
   "scripts": {
@@ -12,6 +14,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^3.0.3"
   }
 }

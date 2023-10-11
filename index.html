@@ -31,49 +31,62 @@
   </head>
 
   <body>
-    <main class="container">
-      <header>
-        <div>
-          <div class="logo">
-            <div class="bg-red text-center px-3 py-4">I know</div>
-            <div class="text-center p-1 text-black px-3 py-4">HTML</div>
-          </div>
-          <div class="text-end text-black">And a lil' css</div>
-        </div>
-      </header>
-
-      <nav class="bg-gray text-black p-0 m-0">
-        <ul class="m-0">
-          <a href="#"><li class="py-2 px-3">Home</li></a>
-          <a href="#"><li class="py-2 px-3">Design thinking?</li></a>
-          <a href="#"><li class="py-2 px-3">DT in nutshell</li></a>
-          <a href="#"><li class="py-2 px-3">About us</li></a>
-          <a href="#" class="active"><li class="py-2 px-3">Contact</li></a>
-        </ul>
-      </nav>
-
-      <section class="p-5 py-6" style="display: flex; justify-content: end">
-        <div class="w-50">
-          <h1 style="line-height: 30px">
-            <div class="text-end" style="display: inline-block">
-              <span style="font-size: 150%">Design</span><br />
-              <span class="text-red">thinking</span>
+    <main class="w-100">
+      <section class="d-flex justify-content-center">
+        <header class="container">
+          <div>
+            <div class="logo">
+              <div class="bg-red text-center px-3 py-4">I know</div>
+              <div class="text-center p-1 text-black px-3 py-4">HTML</div>
             </div>
-          </h1>
-          <div class="p-3">
-            <p>asdfasdfadsfas</p>
-            <ul>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-              <li>Integer nec odio. Praesent libero.</li>
-              <li>Sed cursus ante dapibus diam.</li>
-              <li>Sed nisi. Nulla quis sem at nibh elementum imperdiet.</li>
-              <li>Duis sagittis ipsum.</li>
+            <div class="text-end text-black">And a lil' css</div>
+          </div>
+        </header>
+      </section>
+
+      <section class="d-flex justify-content-center">
+        <div class="container">
+          <nav class="bg-gray text-black p-0 m-0">
+            <ul class="m-0">
+              <a href="#"><li class="py-2 px-3">Home</li></a>
+              <a href="#"><li class="py-2 px-3">Design thinking?</li></a>
+              <a href="#"><li class="py-2 px-3">DT in nutshell</li></a>
+              <a href="#"><li class="py-2 px-3">About us</li></a>
+              <a href="#" class="active"><li class="py-2 px-3">Contact</li></a>
             </ul>
+          </nav>
+        </div>
+      </section>
+
+      <section class="d-flex justify-content-center">
+        <div
+          class="container p-5X py-6"
+          style="display: flex; justify-content: end"
+        >
+          <div class="w-50">
+            <h1 style="line-height: 30px">
+              <div class="text-end" style="display: inline-block">
+                <span style="font-size: 150%">Design</span><br />
+                <span class="text-red">thinking</span>
+              </div>
+            </h1>
+            <div class="p-3">
+              <p>asdfasdfadsfas</p>
+              <ul>
+                <li>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li>
+                <li>Integer nec odio. Praesent libero.</li>
+                <li>Sed cursus ante dapibus diam.</li>
+                <li>Sed nisi. Nulla quis sem at nibh elementum imperdiet.</li>
+                <li>Duis sagittis ipsum.</li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="p-5 py-6" style="display: flex; justify-content: center">
+      <section class="d-flex justify-content-center p-5 py-6">
         <div>
           <h2 class="text-center">Design thinking</h2>
           <div style="display: flex; justify-content: center">
@@ -108,8 +121,8 @@
         </div>
       </section>
 
-      <section>
-        <div class="video-container">
+      <section class="d-flex justify-content-center">
+        <div class="container video-container">
           <iframe
             src="https://www.youtube.com/embed/KnEXrbAQyIo?si=InDLoy4VrDWZ2479"
             title="YouTube video player"
@@ -119,33 +132,48 @@
         </div>
       </section>
 
-      <section>
-        <h2>Design thinking in nutshell</h2>
-        <h3>Points</h3>
-        <p>asdfasdf</p>
-        <p>asdfasdf</p>
-        <p>asdfasdf</p>
-        <p>asdfasdf</p>
-        <p>asdfasdf</p>
-      </section>
-
-      <section>
-        <h2>About us</h2>
-        <div>
-          <div>Box</div>
-          <div>Box</div>
-          <div>Box</div>
-          <div>Box</div>
+      <section
+        class="d-flex justify-content-center design-thinking-nutshell text-black"
+      >
+        <div class="container pt-6 pb-7">
+          <h2>Design thinking in nutshell</h2>
+          <h3>Points</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non
+            justo a quam cursus vehicula nec a elit. Quisque euismod, ex at
+            iaculis lacinia, dui nulla luctus velit, ac cursus sapien elit at
+            arcu. Fusce gravida ex vitae ante tristique, ac cursus tortor
+            fringilla. Sed vel vehicula est.
+          </p>
+          <strong>Lorem ipsum dolor</strong><br />
+          or<br />
+          <strong>Lorem ipsum dolor</strong>
         </div>
       </section>
 
-      <section class="bg-red"><h2>Contact us</h2></section>
-
-      <section>
-        <h2>Contact Info</h2>
+      <section class="d-flex justify-content-center">
         <div>
-          <div>Address box</div>
-          <div>Logo box</div>
+          <h2>About us</h2>
+          <div>
+            <div>Box</div>
+            <div>Box</div>
+            <div>Box</div>
+            <div>Box</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="d-flex justify-content-center bg-red">
+        <h2>Contact us</h2>
+      </section>
+
+      <section class="d-flex justify-content-center">
+        <div class="container">
+          <h2>Contact Info</h2>
+          <div>
+            <div>Address box</div>
+            <div>Logo box</div>
+          </div>
         </div>
       </section>
     </main>

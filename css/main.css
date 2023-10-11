@@ -130,6 +130,7 @@ nav > a:hover {
   background-image: url("../img/pexels-andreea-ch-3969099.jpg");
   background-size: cover;
   background-position: center;
+  height: 100vh;
 }
 
 .d-flex {
@@ -138,4 +139,53 @@ nav > a:hover {
 
 .justify-content-center {
   justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.person {
+  background-size: cover;
+  background-position: center;
+}
+
+.person > div:hover {
+  opacity: 0;
+}
+
+.mike {
+  background-image: url("../img/pexels-andrea-piacquadio-3831645.jpg");
+}
+
+.mike > div {
+  background-color: #d9074e;
+  opacity: 0.7;
+}
+
+.joe {
+  background-image: url("../img/pexels-italo-melo-2379005.jpg");
+}
+
+.joe > div {
+  background-color: #0c39d8;
+  opacity: 0.7;
+}
+
+.maria {
+  background-image: url("../img/pexels-tainá-bernard-3482526.jpg");
+}
+
+.maria > div {
+  background-color: #1d6531;
+  opacity: 0.7;
+}
+
+.jorma {
+  background-image: url("../img/pexels-simon-robben-614810.jpg");
+}
+
+.jorma > div {
+  background-color: #2f9900;
+  opacity: 0.7;
 }

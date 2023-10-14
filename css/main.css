@@ -121,6 +121,9 @@ nav > a:hover {
 .bg-gray {
   background-color: var(--gray);
 }
+.bg-white {
+  background-color: var(--white);
+}
 
 .bg-transparent {
   background-color: transparent;
@@ -135,6 +138,15 @@ nav > a:hover {
   background-size: cover;
   background-position: center;
   height: 100vh;
+}
+
+.contact-info {
+  background-image: url("../img/pexels-burst-373893.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.contact-info > div {
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .d-flex {
